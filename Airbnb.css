@@ -13,13 +13,19 @@ body{
     height: 90px;
     width: auto;
     margin-left: 20px;
-    transform: scale(1.0);
+    transform: scale(1.2);
 }
 .house{
-    position: absolute;
-    left: 33%;
+     position: absolute;
+    left: 32%;
     top: 15%;
     font-size: 20px;
+}
+.house img{
+    height: 23px;
+    width: auto;
+    margin-right: 5px;
+    transform: scale(2.9);
 }
 .experience{
     position: absolute;
@@ -27,26 +33,32 @@ body{
     top: 15%;
     font-size: 20px;
 }
+.experience img{
+    height: 20px;
+    width: auto;
+    margin-right: 5px;
+    transform: scale(2.9);
+}
 .services{
     position: absolute;
     left: 60%;
     top: 15%;
     font-size: 20px;
 }
-.globe{
-    position: absolute;
-    left: 90%;
-    top: 39%;
-    font-size: 20px;
-    border-radius: 50%;
+.services img{
+    height: 23px;
+    width: auto;
+    margin-right: 5px;
+    transform: scale(2.3);
 }
 .globe{
     position: absolute;
     left: 90%;
-    top: 16%;
+    top: 12%;
     font-size: 20px;
-    border-radius: 50%;
+    
 }
+
 .grid{
     position: absolute;
     left: 93%;
@@ -119,6 +131,7 @@ body{
     font-size: 14px;
     font-family: sans-serif;
     font-size: 15px;
+   
 }
 .who button{
     border:none;

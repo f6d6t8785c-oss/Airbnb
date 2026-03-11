@@ -89,13 +89,13 @@ body{
     width: 60%;
     height: 68px;
     border-radius: 35px;
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 5px 10px 10px rgba(0, 0, 0, 0.1);
 }
 .dest{
     position:absolute;
     top: 20%;
     left: 5%;
-    width: 210px;
+    width: 200px;
     font-size: 14px;
     border-right: 1px solid rgba(0, 0, 0, 0.253);
     font-family: sans-serif;
@@ -111,8 +111,8 @@ body{
 .when{
     position:absolute;
     top: 20%;
-    left: 30%;
-    width: 240px;
+    left: 32%;
+    width: 210px;
     font-size: 14px;
     border-right: 1px solid rgba(0, 0, 0, 0.253);
     font-family: sans-serif;
@@ -127,7 +127,7 @@ body{
 .who{
     position:absolute;
     top: 20%;
-    right: 30%;
+    right: 29%;
     font-size: 14px;
     font-family: sans-serif;
     font-size: 15px;

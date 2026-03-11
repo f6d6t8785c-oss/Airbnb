@@ -1,0 +1,156 @@
+body{
+    background-color: whitesmoke;
+}
+.header{
+    background-color: white;
+    height: 245px;
+    position: relative;
+    display:flex;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    
+}
+.header img{
+    height: 90px;
+    width: auto;
+    margin-left: 20px;
+    transform: scale(1.0);
+}
+.house{
+    position: absolute;
+    left: 33%;
+    top: 15%;
+    font-size: 20px;
+}
+.experience{
+    position: absolute;
+    left: 45%;
+    top: 15%;
+    font-size: 20px;
+}
+.services{
+    position: absolute;
+    left: 60%;
+    top: 15%;
+    font-size: 20px;
+}
+.globe{
+    position: absolute;
+    left: 90%;
+    top: 39%;
+    font-size: 20px;
+    border-radius: 50%;
+}
+.globe{
+    position: absolute;
+    left: 90%;
+    top: 16%;
+    font-size: 20px;
+    border-radius: 50%;
+}
+.grid{
+    position: absolute;
+    left: 93%;
+    top: 16%;
+    font-size: 20px;
+}
+.host{
+    position: absolute;
+    left: 80%;
+    top: 17%;
+    font-size: 15px;
+    color:rgba(0, 0, 0, 0.623);
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.house a, 
+.experience a,
+.services a{
+    text-decoration:none;
+    color:black;
+    font-family:sans-serif;
+}
+.box{
+    position: relative;
+    border: none;
+    top: 45%;
+    left: 9%;
+    width: 60%;
+    height: 68px;
+    border-radius: 35px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
+.dest{
+    position:absolute;
+    top: 20%;
+    left: 5%;
+    width: 210px;
+    font-size: 14px;
+    border-right: 1px solid rgba(0, 0, 0, 0.253);
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.dest button{
+    border:none;
+    background-color:white;
+    font-family: sans-serif;
+    font-size: 15px;
+
+}
+.when{
+    position:absolute;
+    top: 20%;
+    left: 30%;
+    width: 240px;
+    font-size: 14px;
+    border-right: 1px solid rgba(0, 0, 0, 0.253);
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.when button{
+    border:none;
+    background-color:white;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.who{
+    position:absolute;
+    top: 20%;
+    right: 30%;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.who button{
+    border:none;
+    background-color:white;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.search{
+    position:absolute;
+    top: 14%;
+    right: 2%;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: white;
+}
+.search button{
+    border:none;
+    font-family: sans-serif;
+    font-size: 15px;
+    width: 48px;
+    height: 48px;
+    padding: 0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#FF385C;
+}
+.dest:hover{
+    background-color:#FF385C;
+    box-shadow: 0px 4px 8px rgba(255, 56, 92, 0.3);
+}
+
+

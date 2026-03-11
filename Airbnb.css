@@ -148,9 +148,6 @@ body{
     justify-content: center;
     background-color:#FF385C;
 }
-.dest:hover{
-    background-color:#FF385C;
-    box-shadow: 0px 4px 8px rgba(255, 56, 92, 0.3);
-}
+
 
 

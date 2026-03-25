@@ -192,3 +192,87 @@
         right: 2%;
     }
 }
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .header {
+        height: 220px;
+    }
+    .house {
+        left: 30%;
+    }
+    .experience {
+        left: 42%;
+    }
+    .services {
+        left: 58%;
+    }
+    .host {
+        left: 78%;
+    }
+    .globe {
+        left: 88%;
+    }
+    .grid {
+        left: 91%;
+    }
+    .box {
+        left: 10%;
+        width: 55%;
+    }
+    .dest {
+        left: 5%;
+        width: 180px;
+    }
+    .when {
+        left: 30%;
+        width: 190px;
+    }
+    .who {
+        right: 25%;
+    }
+    .search {
+        right: 2%;
+    }
+}
+
+@media (min-width: 1441px) {
+    .header {
+        height: 250px;
+    }
+    .house {
+        left: 32%;
+    }
+    .experience {
+        left: 45%;
+    }
+    .services {
+        left: 60%;
+    }
+    .host {
+        left: 80%;
+    }
+    .globe {
+        left: 90%;
+    }
+    .grid {
+        left: 93%;
+    }
+    .box {
+        left: 12%;
+        width: 50%;
+    }
+    .dest {
+        left: 5%;
+        width: 200px;
+    }
+    .when {
+        left: 32%;
+        width: 210px;
+    }
+    .who {
+        right: 29%;
+    }
+    .search {
+        right: 2%;
+    }
+}

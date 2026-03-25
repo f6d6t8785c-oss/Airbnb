@@ -89,3 +89,62 @@
 .services:hover{
     transform:scale(1.3); 
 }
+
+@media (max-width: 768px) {
+    .header {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    .house, .experience, .services {
+        position: static;
+        margin: 10px 0;
+    }
+    .host {
+        position: static;
+        margin-top: 10px;
+    }
+    .dest, .when, .who {
+        position: static;
+        width: 100%;
+        border: none;
+        margin: 10px 0;
+    }
+    .search {
+        position: static;
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .header {
+        height: 200px;
+    }
+    .house {
+        left: 28%;
+    }
+    .experience {
+        left: 40%;
+    }
+    .services {
+        left: 55%;
+    }
+    .host {
+        left: 75%;
+    }
+    .dest {
+        left: 5%;
+        width: 180px;
+    }
+    .when {
+        left: 28%;
+        width: 190px;
+    }
+    .who {
+        right: 25%;
+    }
+    .search {
+        right: 2%;
+    }
+}
